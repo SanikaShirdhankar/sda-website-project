@@ -5,8 +5,8 @@ import { useEffect, useRef } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { gsap } from "gsap";
 import { TextPlugin } from "gsap/TextPlugin";
-import img1 from "../../../assets/project/gal-1.jpg";
-import img2 from "../../../assets/project/gal-2.jpg";
+import img1 from "../../../assets/project/gal-4.jpg";
+import img2 from "../../../assets/project/gal-5.jpg";
 import img3 from "../../../assets/project/gal-3.jpg";
 import img4 from "../../../assets/project/gal-4.jpg";
 import img5 from "../../../assets/project/award-year.webp";
@@ -62,10 +62,10 @@ export default function Hero() {
             </h1>
 
             <div className="hero-buttons mt-4">
-              <a href="#" className="btn btn-dark rounded-pill px-4 py-2 me-3">
+              <a href="/" className="btn btn-dark rounded-pill px-4 py-2 me-3">
                 Explore All Work →
               </a>
-              <a href="#" className="btn btn-light rounded-pill px-4 py-2">
+              <a href="/" className="btn btn-light rounded-pill px-4 py-2">
                 Contact Me →
               </a>
             </div>

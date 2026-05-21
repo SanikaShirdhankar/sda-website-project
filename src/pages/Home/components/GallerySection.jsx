@@ -9,33 +9,27 @@ import img4 from "../../../assets/project/gal-4.jpg";
 export default function WorkSection() {
     const workData = [
         {
-            title: "PHOTOGRAPHY",
-            year: "2024",
+            title: "DIGITAL MARKETING",
+            year: "2026",
             image: img1,
-            heading1: "CREATIVE VISUAL",
-            heading2: "PHOTOGRAPHY",
+            heading1: "POWERING BRANDS",
+            heading2: "DIGITALLY",
         },
         {
-            title: "WEBSITE DESIGN",
-            year: "2024",
+            title: "CREATIVE SERVICES",
+            year: "2026",
             image: img2,
-            heading1: "MODERN DIGITAL",
-            heading2: "WEBSITE DESIGN",
+            heading1: "DESIGN THAT",
+            heading2: "SPEAKS",
         },
         {
             title: "WEB BRANDING",
-            year: "2024",
+            year: "2026",
             image: img3,
-            heading1: "SMART BRAND",
-            heading2: "IDENTITY",
+            heading1: "BRANDING BEYOND ",
+            heading2: "SCREENS",
         },
-        {
-            title: "UI/UX DESIGN",
-            year: "2024",
-            image: img4,
-            heading1: "SMART DIGITAL",
-            heading2: "USER FLOW",
-        },
+       
     ];
 
     const [activeIndex, setActiveIndex] = useState(0);
@@ -67,7 +61,8 @@ export default function WorkSection() {
                     <div className="col-lg-4 d-flex align-items-center">
                         <div className="work-list w-100">
 
-                            <p className="small-title">[ SELECTED_ WORK ]</p>
+                            <p className="small-title">[ We are a full-stack
+                                digital marketing agency ]</p>
 
                             {workData.map((item, index) => (
                                 <div

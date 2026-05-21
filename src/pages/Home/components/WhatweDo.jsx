@@ -59,8 +59,8 @@ export default function WhatWeDo() {
                             All you need is a voice that speaks precisely what the audience deeply wants to hear and that's the beginning of irreplaceable connection.
                         </p>
 
-                        <a href="#" className="hover-link">
-                            Learn more about adon
+                        <a href="/" className="hover-link">
+                            Learn more about Spicetree
                         </a>
                     </div>
 

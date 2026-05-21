@@ -31,7 +31,7 @@ export default function WorkSection() {
 
                 <div className="work-header">
                     <p>(Projects)</p>
-                    <a href="#" className="browse-link">
+                    <a href="/" className="browse-link">
                         Browse all work
                     </a>
                 </div>

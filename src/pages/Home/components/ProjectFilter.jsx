@@ -11,31 +11,31 @@ const projects = [
   {
     id: 1,
     title: "PORTFOLIO DETAILS MARK",
-    category: "marketing",
+    category: "Digital Marketing",
     image: img1,
     tag: "NEW",
   },
   {
     id: 2,
     title: "DROPMARKET",
-    category: "creative",
+    category: "Creative Services",
     image: img2,
   },
   {
     id: 3,
     title: "TRUST IN TIME",
-    category: "creative",
+    category: "Creative Services",
     image: img3,
   },
   {
     id: 4,
-    title: "STYLE PROJECT",
-    category: "style",
+    title: "Web Branding PROJECT",
+    category: "Web Branding",
     image: img4,
   },
 ];
 
-const tabs = ["all", "creative", "marketing", "style"];
+const tabs = ["all", "Creative Services", "Digital Marketing", "Web Branding"];
 
 export default function RecentWork() {
   const [activeTab, setActiveTab] = useState("all");

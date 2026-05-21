@@ -6,17 +6,16 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import SplitType from "split-type";
 
 import "../../../styles/work.css";
-import img1 from "../../../assets/project/gal-1.jpg";
-import img2 from "../../../assets/project/gal-2.jpg";
-import img3 from "../../../assets/project/gal-3.jpg";
+import img1 from "../../../assets/project/gal-5.jpg";
+import img2 from "../../../assets/project/gal-6.jpg";
+import img3 from "../../../assets/project/gal-8.jpg";
 import img4 from "../../../assets/project/gal-4.jpg";
-
 import img5 from "../../../assets/project/award-year.webp";
-import img6 from "../../../assets/project/gal-4.jpg";
-import img7 from "../../../assets/project/gal-3.jpg";
-import img8 from "../../../assets/project/gal-1.jpg";
-import img9 from "../../../assets/project/gal-3.jpg";
-const images = [img1, img2, img3, img4 ,img6, img7, img8, img9];
+import img6 from "../../../assets/project/gal-9.jpg";
+import img7 from "../../../assets/project/gal-7.jpg";
+import img8 from "../../../assets/project/gal-10.jpg";
+import img9 from "../../../assets/project/gal-11.jpg";
+const images = [img6, img2, img3, img4 ,img6, img7, img8, img9];
 gsap.registerPlugin(ScrollTrigger);
 
 export default function HeroGallery() {

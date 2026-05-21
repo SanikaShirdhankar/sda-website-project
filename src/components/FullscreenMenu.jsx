@@ -45,7 +45,7 @@ export default function FullscreenMenu({ open, setOpen }) {
                     </li>
                     <li className="menu-item">
                         <a href="#">
-                            <span>02</span> PAGES <b>+</b>
+                            <span>02</span> SERVICES <b>+</b>
                         </a>
                     </li>
                     <li className="menu-item">
@@ -68,9 +68,9 @@ export default function FullscreenMenu({ open, setOpen }) {
                 </button>
 
                 <div className="contact">
-                    <p>+61404093 954</p>
-                    <p>hello contact@diego.com</p>
-                    <p>If in doubt. reach out</p>
+                    <p>+91 90048 11786</p>
+                    <p>info@sda-zone.com</p>
+                    <p>We invite projects that demand thought and challenge us for the evolving environment.</p>
                 </div>
 
                 <div className="socials">
