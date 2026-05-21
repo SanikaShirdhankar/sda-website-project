@@ -2,7 +2,6 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import SplitType from "split-type";
 import "../../../styles/whatwedo.css";
 import img5 from "../../../assets/project/ab-shape-img.png";
 

@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import SplitType from "split-type";
+
 
 import "../../../styles/work.css";
 import img1 from "../../../assets/project/gal-5.jpg";
