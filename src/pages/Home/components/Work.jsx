@@ -15,7 +15,7 @@ import img6 from "../../../assets/project/gal-9.jpg";
 import img7 from "../../../assets/project/gal-7.jpg";
 import img8 from "../../../assets/project/gal-10.jpg";
 import img9 from "../../../assets/project/gal-11.jpg";
-const images = [img1, img2, img3, img4, img6, img5, img7, img8, img9];
+const images = [img1, img2, img3, img4, img6, img7, img8, img9];
 gsap.registerPlugin(ScrollTrigger);
 
 export default function HeroGallery() {
