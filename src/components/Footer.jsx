@@ -21,10 +21,10 @@ const Footer = () => {
        
 
         <div className="social-links">
-          <a href="#">Facebook ↗</a>
-          <a href="#">Twitter ↗</a>
-          <a href="#">Instagram ↗</a>
-          <a href="#">LinkedIn ↗</a>
+          <a href="/">Facebook ↗</a>
+          <a href="/">Twitter ↗</a>
+          <a href="/">Instagram ↗</a>
+          <a href="/">LinkedIn ↗</a>
         </div>
 
         <p className="copyright">Copyright © 2026</p>
