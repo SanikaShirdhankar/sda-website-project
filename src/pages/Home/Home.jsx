@@ -5,6 +5,7 @@ import GallerySection from "./components/GallerySection";
 import WhatweDo from "./components/WhatweDo";
 import Work from "./components/Work";
 import ProjectFilter from "./components/ProjectFilter";
+import Cta from "./components/Cta";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
       <GallerySection />
       <WhatweDo />
       <ProjectFilter/>
+      <Cta.jsx/>
 
     </>
   );
