@@ -1,0 +1,85 @@
+.header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 25px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    background: transparent;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.hamburger {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: black;
+    margin: 6px 0;
+}
+
+.header-right {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.dot {
+    margin: 0 10px;
+}
+
+.marquee {
+    width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+        padding: 10px 0;
+}
+
+.marquee-content {
+    display: inline-block;
+    animation: scrollText 10s linear infinite;
+    color: #1a1a1a;
+}
+
+.marquee span {
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+/* animation */
+@keyframes scrollText {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translateY(6px);
+}
+
+.hamburger.active span:nth-child(2) {
+    transform: rotate(-45deg) translateY(-6px);
+}
+
+.marquee:hover .marquee-content {
+    animation-play-state: paused;
+    cursor: pointer;
+}

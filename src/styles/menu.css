@@ -1,0 +1,110 @@
+.menu {
+    position: fixed;
+    /* ✅ full screen cover */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    z-index: 9999;
+    /* ✅ top la anaycha */
+    /* overflow-y: auto; */
+    inset: 0;
+}
+
+
+.menu-left {
+    width: 65%;
+    background: #f3f3f3;
+    padding: 80px;
+
+    height: 100vh;
+    /* ✅ full height */
+    overflow-y: auto;
+    /* ✅ scroll */
+}
+
+
+.menu-logo {
+    font-size: 28px;
+    margin-bottom: 80px;
+}
+
+/* remove default list */
+.menu-left ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* li becomes wrapper only */
+.menu-left li {
+  margin: 30px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* 👉 MAIN STYLE NOW ON A TAG */
+.menu-left li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 80px;
+  font-weight: 600;
+
+  text-decoration: none;
+  color: #222;
+
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+/* left number */
+.menu-left li a span {
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+/* plus icon */
+.menu-left li a b {
+  font-weight: 400;
+}
+
+/* hover effect (optional but nice) */
+.menu-left li a:hover {
+  opacity: 0.7;
+}/* RIGHT PANEL */
+.menu-right {
+
+    width: 35%;
+    background: #e6e6e6;
+    padding: 80px;
+
+    height: 100vh;
+    /* ✅ full height */
+    position: sticky;
+    top: 0;
+}
+
+.close {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    font-size: 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.contact {
+    margin-top: 120px;
+    font-size: 18px;
+    text-align: right;
+}
+
+.socials {
+    margin-top: 100px;
+}
+
+.socials p {
+    margin: 12px 0;
+    cursor: pointer;
+}

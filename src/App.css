@@ -1,0 +1,30 @@
+
+
+.hero {
+  background-color: #ff3c00;
+}
+.hero {
+  background: linear-gradient(90deg, #ff3c00 40%, rgba(0,0,0,0.7)), url('../assets/images/hero.jpg');
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+/* Navbar spacing */
+.navbar {
+  padding: 20px 0;
+}
+
+/* Text styling */
+.hero h1 {
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+/* Button hover */
+.btn-light:hover {
+  background: #000;
+  color: #fff;
+}
