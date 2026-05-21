@@ -5,7 +5,8 @@ import GallerySection from "./components/GallerySection";
 import WhatweDo from "./components/WhatweDo";
 import Work from "./components/Work";
 import ProjectFilter from "./components/ProjectFilter";
-
+import Contact from "./components/Contact";
+import Footer from "../../components/Footer";
 function App() {
   return (
     <>
@@ -14,6 +15,8 @@ function App() {
       <GallerySection />
       <WhatweDo />
       <ProjectFilter/>
+      <Contact/>
+      <Footer/>
 
 
     </>
