@@ -10,7 +10,6 @@ import img1 from "../../../assets/project/gal-5.jpg";
 import img2 from "../../../assets/project/gal-6.jpg";
 import img3 from "../../../assets/project/gal-8.jpg";
 import img4 from "../../../assets/project/gal-4.jpg";
-import img5 from "../../../assets/project/award-year.webp";
 import img6 from "../../../assets/project/gal-9.jpg";
 import img7 from "../../../assets/project/gal-7.jpg";
 import img8 from "../../../assets/project/gal-10.jpg";
