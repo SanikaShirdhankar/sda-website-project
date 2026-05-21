@@ -4,7 +4,7 @@ import "../../../styles/gallery.css";
 import img1 from "../../../assets/project/gal-1.jpg";
 import img2 from "../../../assets/project/gal-2.jpg";
 import img3 from "../../../assets/project/gal-3.jpg";
-import img4 from "../../../assets/project/gal-4.jpg";
+
 
 export default function WorkSection() {
     const workData = [
