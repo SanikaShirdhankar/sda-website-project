@@ -39,22 +39,22 @@ export default function FullscreenMenu({ open, setOpen }) {
                 </div>
                 <ul>
                     <li className="menu-item">
-                        <a href="#">
+                        <a href="/">
                             <span>01</span> HOME <b>+</b>
                         </a>
                     </li>
                     <li className="menu-item">
-                        <a href="#">
+                        <a href="/">
                             <span>02</span> SERVICES <b>+</b>
                         </a>
                     </li>
                     <li className="menu-item">
-                        <a href="#">
+                        <a href="/">
                             <span>03</span> PORTFOLIO <b>+</b>
                         </a>
                     </li>
                     <li className="menu-item">
-                        <a href="#">
+                        <a href="/">
                             <span>04</span> BLOG <b>+</b>
                         </a>
                     </li>
